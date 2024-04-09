@@ -1,0 +1,109 @@
+
+/* This file contains the styling for the products page */
+
+.navLinks {
+    padding-right: 30px;
+    color: #007FB0;
+}
+
+.navLinks:visited {
+    color: #007FB0;
+}
+
+#topBtn {
+    display: none;
+    position: fixed;
+    left: 50%;
+    margin-top: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #339333;
+    color: white;
+    cursor: pointer;
+    padding: 17px;
+    border-radius: 10000px;
+}
+
+#topBtn:hover {
+    background-color: #9BCB4E;
+}
+
+.item-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.item-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.item-box h3, .item-box h4, .item-box p {
+    margin: 5px 0;
+}
+
+
+#items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.readMoreLink {
+    color: #0099D2;
+}
+
+.readMoreLink:visited {
+    color: #0099D2;
+}
+
+#TShirtNavLink {
+    padding-left: 10px;
+}
+
+.add-to-cart {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    background-color: #BE1622;
+    color: white;
+    cursor: pointer;
+    padding: 17px;
+    border-radius: 10000px;
+}
+
+.add-to-cart:hover {
+    background-color: #F2BE1A;
+}
+
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-container input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: #007FB0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #005f80;
+
+}

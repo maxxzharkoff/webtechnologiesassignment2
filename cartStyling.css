@@ -1,0 +1,65 @@
+/* This file contains the styling for the cart page */
+
+/* Style the body */
+#shopping-cart-elements {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+}
+
+table {
+    padding-top: 15px;
+    width: 100%;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+}
+
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Style the buttons */
+
+tr:hover {
+    background-color: #ddd;
+}
+
+#shopping-cart-title {
+    color: #F2BE1A;
+}
+
+#empty-basket-button {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    background-color: #F2BE1A;
+    color: white;
+    cursor: pointer;
+    padding: 17px;
+    border-radius: 10000px;
+}
+
+#process-payment-button {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    background-color: #BE1622;
+    color: white;
+    cursor: pointer;
+    padding: 17px;
+    border-radius: 10000px;
+    margin-left: 300px;
+}
+
+#process-payment-button:hover {
+    background-color: #339333;
+}

@@ -1,0 +1,97 @@
+/* This file contains the styling for the home page */
+
+#main-Heading {
+    color: #007FB0;
+    font-size: 48px;
+    padding-top: 40px;
+}
+
+#intro-p {
+    font-size: 16px;
+}
+
+.centerElements {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+}
+
+#video-heading {
+    color: #F2BE1A;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#second-video-heading {
+    color: #F2BE1A;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.video-container {
+    margin: 0 auto;
+    padding-top: 10px;
+    max-width: 600px;
+}
+
+.video-container {
+    display: block;
+}
+
+#local-video {
+    width: 100%;
+    height: auto;
+}
+
+#embedded-video {
+    width: 100%;
+    height: 316px;
+}
+
+#latest-offers {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.offers-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.offers-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.offer {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.offer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.offer h3 {
+    margin-top: 15px;
+    font-size: 1.25em;
+}
+
+.offer p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}

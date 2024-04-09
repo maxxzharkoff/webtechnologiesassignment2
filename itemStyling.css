@@ -1,0 +1,87 @@
+/* This file contains the styling for the items page */
+
+.navLinks {
+    padding-right: 30px;
+    color: #007FB0;
+}
+
+.navLinks:visited {
+    color: #007FB0;
+}
+
+.item-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px auto;
+    width: 36%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.item-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.item-box h3, .item-box h4, .item-box p {
+    margin: 5px 0;
+}
+
+.readMoreLink {
+    color: #0099D2;
+}
+
+.readMoreLink:visited {
+    color: #0099D2;
+}
+#TShirtNavLink {
+    padding-left: 10px;
+}
+
+#buy-button {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    background-color: #BE1622;
+    color: white;
+    cursor: pointer;
+    padding: 17px;
+    border-radius: 10000px;
+}
+
+#buy-button:hover {
+    background-color: #F2BE1A;
+}
+
+
+.review-form, .reviews-container {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+.review {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+

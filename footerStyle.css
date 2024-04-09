@@ -1,0 +1,83 @@
+/* This file contains the styling for the footer */
+
+.main-content {
+    min-height: calc(100vh - 207px);
+}
+
+footer {
+    background-color: #34516C;
+    margin-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    clear: both;
+}
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-containers {
+    float: left;
+    padding-right: 70px;
+}
+
+.footer-headers {
+    color: white;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    margin-right: 400px;
+}
+
+.footer-elements {
+    color: white;
+    font-size: 16px;
+}
+
+#links-container {
+    margin-left: 20px;
+}
+
+#contact-container ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#student-council-link {
+    color: #007FB0;
+}
+
+#student-council-link:visited {
+    color: #007FB0;
+}
+
+/* Media queries for footer */
+
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+    .footer-headers {
+        font-size: 18px;
+    }
+
+    .footer-elements {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-headers {
+        font-size: 12px;
+    }
+
+    .footer-elements {
+        font-size: 8px;
+    }
+}
